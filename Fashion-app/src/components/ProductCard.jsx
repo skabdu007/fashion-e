@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiHeart, FiEye, FiStar } from 'react-icons/fi';
-import '../styles/ProductCard.css';
+import '../styles/global.css';
 
 const ProductCard = ({ product }) => {
   const [isWishlisted, setIsWishlisted] = useState(false);

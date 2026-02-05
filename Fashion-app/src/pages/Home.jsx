@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from '../components/Hero';
 import ProductCard from '../components/ProductCard';
-import '../styles/Home.css';
+import '../styles/global.css'; // FIXED: Changed "syles" to "styles"
 
 // Mock data - replace with actual API calls
 const mockProducts = [

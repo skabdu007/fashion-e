@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiShoppingBag, FiUser, FiHeart, FiSearch, FiMenu, FiX } from 'react-icons/fi';
-import '../styles/Navbar.css';
+import '../styles/global.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
