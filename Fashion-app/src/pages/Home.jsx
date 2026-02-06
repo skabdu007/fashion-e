@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Hero from '../components/Hero';
-import ProductCard from '../components/ProductCard';
-import '../styles/global.css'; // FIXED: Changed "syles" to "styles"
+import Hero from '../components/Hero'; // This should be correct if components are in src/components/
+import ProductCard from '../components/ProductCard'; // This should be correct if components are in src/components/
+import '../styles/global.css';
 
 // Mock data - replace with actual API calls
 const mockProducts = [
@@ -22,7 +22,7 @@ const mockProducts = [
     name: 'Floral Summer Dress',
     price: 79.99,
     originalPrice: 99.99,
-    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w-400',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400',
     category: 'women',
     rating: 4.8,
     isNew: true,
